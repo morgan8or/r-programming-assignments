@@ -8,7 +8,7 @@ myMean <- function(assignment2) {
 myMean(assignment2)
 
 # Error message:
-Error in myMean(assignment2) : object 'assignment' not found
+# Error in myMean(assignment2) : object 'assignment' not found
 
 # 'assignment' and 'someData' are not defined, and do not exist. 
 # We need to update the myMean function so it can run correctly.
@@ -21,3 +21,5 @@ myMean <- function(assignment2) {
 
 myMean(assignment2)
 [1] 19.25
+
+# blog link: https://morganlefey.com/module-2-lis4370/
