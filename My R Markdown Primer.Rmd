@@ -1,0 +1,31 @@
+---
+title: "My R Markdown Primer"
+author: "Morgan Mascarenas"
+date: "2026-11-13"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+R Markdown is a file formatt that allows for dynamic documents within R.
+For instance, users can combine written text, R code, mathematical
+equations, and data visualizations all in one document. This makes it
+easier to perform data analysis, explain results, and present
+information in an organized format. R Markdown is especially useful
+because it allows users to run code directly within the document and
+automatically display the results, creating reports that are easy to
+update, understand, and share.
+
+# 3
+$\alpha + \beta = \gamma$
+$$
+y = mx + b
+$$
+```{r}
+data(iris)
+head(iris)
+summary(iris)
+table(iris$Species)
+```
+
